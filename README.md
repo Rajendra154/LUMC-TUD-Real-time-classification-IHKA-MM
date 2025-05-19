@@ -1,6 +1,27 @@
 # LUMC-TUD-Real-time-classification-IHKA-MM
 Real-Time Classification of Epileptiform Activity in the Intrahippocampal Kainic Acid Mouse Model: Master Thesis Jeroen Vermeulen
 
+# Abstract
+One-third of patients suffering from chronic epilepsy, which is caused by abnormal brain activity, is
+drug-resistant. Animal models are widely used to study the mechanisms leading to epilepsy so better
+drug treatments can be developed for this disease. In such studies, epileptiform activity, assessed by
+LFP recordings, can be used as a marker for the development and chronification of disease. However,
+the analysis of LFP recordings is typically done manually, which is time-consuming, subject to observer
+bias, error-prone, and lacks consistency and efficiency. Therefore, we present a work which developed
+a new, automated detection and classification method for epileptiform activity, which was tested in the
+intrahippocampal kainic acid (IHKA) mouse model, a model of human temporal lobe epilepsy. Our
+method relies on a spike detector using an improved version of the nonlinear energy operator (NEO) in
+combination with automatic NEO thresholding (ANT). The detected spikes form the basis of epileptiform
+event detection and classification. The proposed method is implemented in Python as an automated
+and time-efficient algorithm that can be used in preclinical studies. Epileptiform event detection accuracy
+was 93.1% and classification accuracy 95.8%. Moreover, the time for analysis of LFP recordings
+was reduced by 98.8% compared to manual analysis. Additionally, to demonstrate the potential of the
+algorithm for application in Brain-Machine Interfaces (BMI), we performed a real-time implementation
+using both an application-specific integrated circuit (ASIC) and a field programmable gate array (FPGA).
+The FPGA demonstrated the feasibility of real-time implementation, and the ASIC resulted in an area
+and power efficient chip using the Taiwan semiconductor manufacturing company (TSMC) 45nm library
+that constitutes a post-layout area of 9114 μm2 and a power usage of 6.11 μW.
+
 # Spike and Activity detection Python code Manual
 Author: Jeroen Vermeulen, Institute: TU Delft, Quantum and Computer Engineering
 V0.3.0 – 07-03-2024
